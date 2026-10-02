@@ -2,6 +2,7 @@
 
 var fs = require("fs");
 var knayi = require("knayi-myscript");
+var sortDiacritics = require("my-diacritic-sort");
 var winResearcher = require("my-winresearcher");
 
 var outputUnicode = function(outText) {

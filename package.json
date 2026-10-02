@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "knayi-myscript": "2.9.0",
+    "my-diacritic-sort": "^1.0.1",
     "my-winresearcher": "^1.1.2"
   }
 }
