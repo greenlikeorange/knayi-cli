@@ -32,9 +32,7 @@ if (process.argv.length > 2) {
 
       var myFont = knayi.fontDetect(srcText);
       if (myFont === "zawgyi") {
-        knayi.fontConvert("unicode", function(unicoded) {
-          outputUnicode(unicoded);
-        });
+        outputUnicode(knayi.fontConvert(srcText, "unicode", "zawgyi"));
       } else {
         var repChars = {
           56319: "", // "ွ",
